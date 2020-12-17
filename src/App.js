@@ -3,7 +3,7 @@ import SingleColor from "./SingleColor";
 import Values from "values.js";
 
 function App() {
-  const [color, setColor] = useState("");
+  const [color, setColor] = useState("#5f7d99");
   const [error, setError] = useState(false);
   const [list, setList] = useState(new Values("#5f7d99").all(5));
   const inputRef = useRef(null);

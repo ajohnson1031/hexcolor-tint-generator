@@ -235,3 +235,26 @@ input.error {
   border: 5px solid yellow;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 700px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .container h3 {
+    padding-bottom: 20px;
+    margin: 0 auto;
+  }
+
+  .pcontainer {
+    text-align: center;
+    margin: 0;
+    min-width: 90%;
+  }
+
+  .pcontainer p {
+    padding-top: 5px;
+  }
+}
